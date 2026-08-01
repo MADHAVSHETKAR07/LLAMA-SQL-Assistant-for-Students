@@ -322,8 +322,6 @@ if st.button("Run"):
     else:
         st.warning("Please enter a question.")
 
-
-
 # ================= VISUALS =====================
 if "df" in st.session_state:
     df = st.session_state["df"]
